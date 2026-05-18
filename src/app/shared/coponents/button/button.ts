@@ -8,6 +8,8 @@ import { MatButtonToggleModule } from '@angular/material/button-toggle';
   styleUrl: './button.css',
 })
 export class Button {
-  userList(){}
+  userList(){
+    
+  }
   repoList(){}
 }

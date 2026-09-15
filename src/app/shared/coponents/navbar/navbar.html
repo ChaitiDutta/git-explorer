@@ -1,0 +1,11 @@
+<p>navbar works!</p>
+<mat-toolbar color="primary">
+  <span class="spacer"></span>
+  <button mat-button (click)="onButtonClick('dashboard')">Home</button>
+  @if(!isLoggedIn){
+      <button mat-button (click)="onButtonClick('login')">Login</button>
+  }
+  @else{
+     <button mat-button (click)="onLogOut()">LogOut</button>
+  }
+</mat-toolbar>
